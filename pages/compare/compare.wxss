@@ -1,0 +1,13 @@
+@import 'button.wxss';
+
+.container {
+  /* height: 1500rpx; */
+  border: 1px solid rebeccapurple;
+  margin: auto 20rpx;
+}
+
+input {
+  height: 80rpx;
+  border: 1rpx solid #eee;
+  margin: 15rpx 0;
+}

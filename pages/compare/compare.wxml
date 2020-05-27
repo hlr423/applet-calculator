@@ -1,0 +1,18 @@
+<!-- compare.wxml -->
+<view class="container">
+	<view>
+		<text>第一个数：</text>
+		<input type="number" bindinput="inputNum1" value="{{oneNumber}}"  data-name='oneNumber'></input>
+	</view>
+	<view>
+		<text>第二个数：</text>
+		<input type="number" bindinput="inputNum2" value="{{twoNumber}}"  data-name='twoNumber'></input>
+	</view>
+	<view>
+		<button type="button" bindtap="compareNumber">compare</button>
+	</view>
+	<view>
+		<text>最大值：{{result1}}</text>
+		<view>{{hlr}}</view>
+	</view>
+</view>

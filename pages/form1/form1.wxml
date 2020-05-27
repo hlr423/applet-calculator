@@ -1,0 +1,37 @@
+<view id="container">
+  <form bindsubmit="submitForm">
+    <text>姓名：</text>
+    <view>
+      <input name="name" value="{{name}}"/>
+    </view>
+    <view>
+     <text>性别：</text>
+     <radio-group name="sex">
+     <label>
+     <radio value="0"  checked="{{sex==0?true:false}}">男</radio>
+     <radio value="1" checked="{{sex==1?true:false}}">女</radio>
+     </label>
+     </radio-group>
+    </view>
+  <view>
+  <text>专业技能：</text>
+    <checkbox-group name="design" value="{{design}}">
+    <label>
+     <checkbox value="html"  checked="{{design=='html'?true:false}}">HTML</checkbox>
+    </label>
+    <label>
+     <checkbox value="css" checked="{{design=='css'?true:false}}">CSS</checkbox>
+    </label>
+    </checkbox-group>
+  </view>
+  <view>
+  <text>您的意见：</text>
+  <textarea name="idea" value="{{idea}}"></textarea>
+  </view>
+  <view>
+  <button form-type="submit">提交</button>
+  </view>
+  </form>
+<view>
+</view>
+</view>

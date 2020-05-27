@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/calculator/calculator",
+    "pages/index/index",
+    "pages/form1/form1",
+    "pages/compare/compare",
+    "pages/elementCeShi/ceshi",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "enablePullDownRefresh":true, 
+    "onReachBottomDistance":1,
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black" 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

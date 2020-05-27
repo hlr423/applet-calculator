@@ -1,0 +1,22 @@
+<view id="outer" bindtap="viewTap">
+{{userName}}
+	<view id="inner">inner</view>
+</view>
+<!-- <view bindtouchstart="touchStart" bindtouchend="mytouchend" bindlongtap="mylongtap" bindtap="mytap" bindtouchcancel="mytaouchcance" bindtouchmove="mytouchmove">
+	手指触摸动作开始
+</view> -->
+<view bindtouchstart="touchStart" bindtouchend="mytouchend">
+	touchstart 手指触摸
+	touchend 手指触摸动作结束
+</view>
+<view bindlongtap="mylongtap" bindtap="mytap">
+	tap 手指触摸后离开
+	longtap 手指触摸后后，超过350ms离开
+</view>
+<view bindtouchcancel="mytaouchcance" bindtouchmove="mytouchmove">
+	touchmove 手指触摸后移动
+	touchcancel 手指触摸动作被打断，如弹窗和来电提醒
+</view>
+<view style="background-color:{{dellStyle}}">
+ <button  bindtouchstart="mytouchstart" bindtouchmove="mytouchmove">点我吧</button>
+</view> 

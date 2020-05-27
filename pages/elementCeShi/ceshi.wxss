@@ -1,0 +1,8 @@
+view{
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  margin: 50rpx auto;
+}
+button{
+  background-color:transparent ;
+}

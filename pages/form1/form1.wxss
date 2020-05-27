@@ -1,0 +1,14 @@
+input{
+  border-bottom:1px solid #000;
+}
+#container{
+  width: 80%;
+  margin: auto 10rpx;
+}
+textarea{
+  border: 1px solid #eee;
+  padding: 10rpx;
+}
+view{
+  margin-top: 30rpx;
+}
